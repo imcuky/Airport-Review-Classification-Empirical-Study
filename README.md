@@ -1,23 +1,23 @@
-# Classification Empirical Study with Textual Data 📊📝
+# Classification Empirical Study with Textual Data
 
-## Overview 🚀
+## Overview 
 This repository contains the code and documentation for a classification empirical study on airline passenger reviews using deep learning approaches on textual data. The study involves tasks related to Natural Language Processing (NLP), including the creation of derived datasets, encoding text as input features, and evaluating models.
 
-## Datasets 📂
+## Datasets 
 The primary dataset used is the [Airline Passenger Reviews dataset](https://www.kaggle.com/datasets/malharkhatu/airline-passenger-reviews), which classifies passenger reviews into three classes (promoters, detractors, and passives). A reduced version with 10,761 samples is used.
 
-### Derived Datasets 📑
+### Derived Datasets 
 1. **Derived-Dataset-1:** Subset of POS tags (lemmatized).
 2. **Derived-Dataset-2:** Named entities + important POS tags (chosen based on exploration using spaCy).
 
-## Tasks and Steps 📑
+## Tasks and Steps 
 
-### 1. NLP Pipeline Tasks 🤖
+### 1. NLP Pipeline Tasks 
 - [ ] Explore NLP pipeline using spaCy.
 - [ ] Create Derived-Dataset-1 with selected POS tags.
 - [ ] Create Derived-Dataset-2 with named entities and chosen POS tags.
 
-### 2. Classification Empirical Study 🧠
+### 2. Classification Empirical Study 
 1. **Encode Text as Input Features:**
    - [ ] Utilize bag-of-words representation.
    - [ ] Remove stopwords and use tf-idf as the attribute value.
@@ -45,16 +45,16 @@ The primary dataset used is the [Airline Passenger Reviews dataset](https://www.
    - [ ] Visualize results using tables.
    - [ ] Discuss differences in micro and macro averages.
 
-### 3. Jupyter Notebook 📓
+### 3. Jupyter Notebook 
 - [ ] Document the entire empirical study in a Jupyter Notebook.
 - [ ] Include explanations, code, and results in separate cells.
 - [ ] Follow logical cell separations for clarity.
 
-## Technology Stack 🛠️
+## Technology Stack 
 - **Python Packages:** scikit-learn, spaCy
 - **Tools:** Jupyter Notebook, Kaggle for datasets
 
-## Results and Discussion 📊
+## Results and Discussion 
 For detailed results and discussions, refer to the Jupyter Notebook.
 
 
